@@ -1,4 +1,10 @@
+import Tours from "./components/Tours";
+
 const App = () => {
-  return <div className="text-red-500">App</div>;
+  return (
+    <div>
+      <Tours />
+    </div>
+  );
 };
 export default App;
